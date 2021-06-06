@@ -28,6 +28,6 @@ def sentences(text, count):
     new = []
     l = []
     new = list(map(str, text.split()))
-    l += str(random.choice(new))
+    l += [random.choice(new)]
     return(l)
 print(sentences(text, 10))
